@@ -1,0 +1,109 @@
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Oswald&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Victor Mono', monospace;
+}
+
+
+img{
+    margin: 0.2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.nav{
+    font-family: roboto;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.nav:hover{
+    background-color:rgb(154, 154, 154);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius:0.3rem;
+}
+
+#title{
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    margin:2rem;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style-type:none;
+    background-color: rgb(237, 237, 239);
+    height: 3rem;
+    align-items: center;
+}
+
+.entrybox{
+    display: flex;
+    justify-content: center;
+}
+
+.textContainer
+{
+    border-radius: 0.5rem;
+    text-align: start;
+    width: 80vw;
+    min-height: 30vh;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.upload{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+
+.submitbtn{
+    border-radius: 0.3rem;
+    padding: 1rem;
+    background-color: #ced9ff;
+    margin: 0.2rem;
+    border-color:#9db1fa;
+}
+.submitbtn:hover{
+    cursor: pointer;
+    background-color:#9db1fa ;
+}
+
+
+.uploadbtn{
+    border-radius: 0.3rem;
+    padding: 1rem;
+    background-color: #ceffd7;
+    margin: 0.2rem;
+    border-color:#96ffa9;
+}
+
+
+
+.uploadbtn:hover{
+    cursor: pointer;
+    background-color: #96ffa9;
+}
+
+.heading{
+    text-align: center;
+    margin: 2rem;
+}
+#header{
+    margin: 1rem;
+}
+
+
+
+

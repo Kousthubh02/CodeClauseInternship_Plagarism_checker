@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUILL GUARD</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="title"> <img id="brand" src="./images/logo.jpeg" alt="logo">Quill Guard</li>
+            <li class="nav">Home</li>
+            <li class="nav">About Us</li>
+        </ul>
+    </nav>
+    <div class="heading">
+        <h2 id="header">Plagarism Checker</h2>
+    <p>You can check the plagarism of your text or document here !!</p>
+    </div>
+  
+    <form action="result.html" method="post" enctype="multipart/form-data">
+
+    <div class="upload">
+        <input type="file" class="uploadbtn"/>
+    </div>
+    <div class="submit">
+        <button id="submit" class="submitbtn">Check Plagarism</button>
+    </div>
+    <div class="result"></div>
+</form>
+
+</body>
+<script src="script.js"></script>
+</html>
